@@ -86,8 +86,8 @@ flowchart LR
 ### 2. 装工作台
 
 ```bash
-git clone <this-repo>
-cd <repo>/workbench
+git clone https://github.com/<your-name>/creator-topic-studio.git
+cd creator-topic-studio/workbench
 python -m venv .venv
 .venv/Scripts/pip install -r requirements.txt
 python app.py
@@ -100,7 +100,7 @@ python app.py
 采集能力由 [MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) 提供，**需自行 clone 到同级目录**：
 
 ```bash
-cd <repo>/..
+cd creator-topic-studio/..
 git clone https://github.com/NanmiCoder/MediaCrawler.git
 cd MediaCrawler
 python -m venv .venv
