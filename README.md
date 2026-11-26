@@ -1,5 +1,8 @@
 # MBTI 自媒体工作台
 
+[![CI](https://github.com/Hippopfish/creator-topic-studio/actions/workflows/ci.yml/badge.svg)](https://github.com/Hippopfish/creator-topic-studio/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 > 一个本地运行的小红书内容工作台：把「选题判断」从聊天框里的玄学，做成可回溯、可核查、可回退的流水线。
 
 不是又一个「AI 帮你写小红书文案」的套壳。它要解决的是一个更具体的问题：**你凭什么认为这个选题值得写？**
@@ -86,7 +89,7 @@ flowchart LR
 ### 2. 装工作台
 
 ```bash
-git clone https://github.com/<your-name>/creator-topic-studio.git
+git clone https://github.com/Hippopfish/creator-topic-studio.git
 cd creator-topic-studio/workbench
 python -m venv .venv
 .venv/Scripts/pip install -r requirements.txt
