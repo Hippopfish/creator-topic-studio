@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MBTI 自媒体工作台</title>
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<aside class="sidebar">
+  <div class="brand">
+    MBTI 工作台
+    <small>采集 · 档案 · 选题 · 创作 · 复盘</small>
+  </div>
+  <nav id="nav">
+    <a href="#/collect" data-view="collect">采集台</a>
+    <a href="#/profile" data-view="profile">档案台</a>
+    <a href="#/topics" data-view="topics">选题台</a>
+    <a href="#/create" data-view="create">创作台</a>
+    <a href="#/review" data-view="review">复盘台</a>
+    <a href="#/comments" data-view="comments">评论洞察</a>
+    <a href="#/settings" data-view="settings">设置</a>
+  </nav>
+  <div class="sidebar-foot" id="sideFoot">
+    <div id="footStatus">正在连接…</div>
+  </div>
+</aside>
+
+<main id="view">
+  <div class="empty">加载中…</div>
+</main>
+
+<div id="toast"></div>
+
+<script src="/static/js/core.js"></script>
+<script src="/static/js/views-collect.js"></script>
+<script src="/static/js/views-profile.js"></script>
+<script src="/static/js/views-studio.js"></script>
+<script src="/static/js/views-chat.js"></script>
+<script src="/static/js/app.js"></script>
+</body>
+</html>
